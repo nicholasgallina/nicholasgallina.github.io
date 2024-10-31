@@ -1,19 +1,19 @@
 
 document.getElementById('aboutMeButton').onclick = function () {
 
-  window.location.href = about.html;
+  window.location.href = "about.html";
 
 };
 
 document.getElementById('resumeButton').onclick = function () {
 
-  window.location.href = resume.html;
+  window.location.href = "resume.html";
 
 };
 
 
 document.getElementById('projectsButton').onclick = function () {
 
-  window.location.href = projects.html;
+  window.location.href = "projects.html";
 
 };
