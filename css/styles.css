@@ -5,6 +5,22 @@
 
   }
 
+
+  .centered {
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #05A67D;
+
+  }
+
+
+
+
+
   .navbar {
 
     display: flex;
