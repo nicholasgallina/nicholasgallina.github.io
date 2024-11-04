@@ -1,6 +1,6 @@
   body {
 
-      background-color: #000000;
+      background-color: #333333;
       font-family: Arial, sans-serif;
 
   }
@@ -9,10 +9,10 @@
   .centered {
 
     display: flex;
-    height: 100vh;
+    height: 20vh;
     justify-content: center;
     align-items: center;
-    background-color: #333333;
+    background-color: #2C2C2C;
     color: #05A67D;
 
   }
