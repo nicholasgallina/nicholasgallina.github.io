@@ -1,12 +1,37 @@
   body {
 
-      background-color: #FFFFFF;
-      font-family: Arial, sans-serif;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+
+  }
+
+  .header-buttons {
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .header-button {
+
+    display: flex;
+    font-family:"Times New Roman", Times, serif;
+    padding: 20px;
+    font-size: 20px;
+
+  }
+
+  .false-header {
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: center;
 
   }
 
 
-  .links {
+  .false-header-elements {
+
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -18,7 +43,7 @@
 
   }
 
-  .info-item {
+  .false-header-element {
 
     display: flex;
     gap: 4px;
@@ -34,54 +59,59 @@
   }
 
 
-  .centered {
-
-    font-family: serif;
-    text-align: center;
-
-  }
-
-
-
-
-
-  .navbar {
-
-    display: flex;
-
-  }
-
- 
-
-
-  .nav-button {
-
-    display: flex;
-    padding: 20px;
-    font-size: 20px;
-
-
-  }
-
-  .sub-heading {
+  .sub-headings {
 
     font-family:"Times New Roman", Times, serif;
     font-size: 20px;
+    font-weight: 700;
     text-align: left;
-
-
+    text-decoration: underline;
 
   }
 
-  .sub-heading-education {
+  .university {
 
-    font-family:
-    color: green;
+    font-weight: 700;
+
   }
 
+  .education-line {
+
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-weight: 700;
+
+  }
+
+  .location {
+
+    font-style: normal;
+
+  }
+
+  .details {
+
+    flex-grow: 1;
+    padding: 0 10px;
+
+  }
+
+  .date {
+
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+
+  }
+
+  .relevant-courses {
+
+    font-style: normal;
+    font-weight: 400:
 
 
-
+  }
 
 
 
