@@ -17,3 +17,7 @@ document.getElementById('projectsButton').onclick = function () {
   window.location.href = "projects.html";
 
 };
+
+document.getElementById('homeButton').onclick = function () {
+  window.location.href = "index.html";
+}
