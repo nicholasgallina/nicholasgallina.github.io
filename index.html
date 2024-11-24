@@ -1,107 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="the landing page">
-    <link rel="icon" type="image/ico" href="images/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="the landing page" />
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
     <title>Nicholas R. Gallina</title>
     <!-- load the css file -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<!-- metadata ends, content begins -->
+  <body> <!-- metadata ends, content begins -->
+    <br> <!-- line break -->
 
-<body>
-  <br>
+    <nav class="navbar"> <!-- "navbar" begins -->
 
-  <!-- navbar begins -->
-    <nav class="navbar">
-      <ul class="nav-links">
+      <ul class="navbar-top"> <!-- "navbar-top" begins -->
         <li><a href="#">HOME</a></li>
         <li><a href="about.html">ABOUT ME</a></li>
         <li><a href="projects.html">PROJECTS</a></li>
+      </ul> <!-- "navbar-top" ends -->
+
+      <br> <!-- line break -->
+
+      <div class="navbar-middle"> <!-- "navbar-middle" begins -->
+        <p>Nicholas R. Gallina</p>
+      </div> <!-- "navbar-middle" ends -->
+      <br> <!-- line break -->
+
+      <div class="navbar-bottom"> <!-- "navbar-bottom" begins -->
+      <div class="navbar-bottom-element">
+        <img src="images/location.png" alt="Location Icon" class="icon" />
+        <p>Brooklyn, NY</p>
+      </div>
+
+      <div class="navbar-bottom-element">
+        <img src="images/email.png" alt="Email Icon" class="icon" />
+        <p>gallina.n@northeastern.edu</p>
+      </div>
+
+      <div class="navbar-bottom-element">
+        <img src="images/linkedin.png" alt="LinkedIn Icon" class="icon" />
+        <a href="https://www.linkedin.com/in/nicholasgallina-/" target="_blank"
+          >in/nicholasgallina-</a>
+      </div>
+
+      <div class="navbar-bottom-element">
+        <img src="images/github.png" alt="GitHub Icon" class="icon" />
+        <a href="https://github.com/nicholasgallina" target="_blank"
+          >github.com/nicholasgallina</a>
+      </div>
+
+      </div> <!-- "navbar-bottom" ends -->
+    </nav> <!-- "navbar" ends -->
+
+    <br> <!-- line break -->
+    <br> <!-- line break -->
+
+    <main> <!-- main begins -->
+      <div class="sub-heading">
+        <p>EDUCATION</p>
+      </div>
+
+      <div class="university">
+        <p>Northeastern University</p>
+      </div>
+
+      <div class="education">
+        <p class="location">Boston, MA</p>
+        <p class="details">
+        Khoury College: Candidate for Bachelor in Computer Science and Design
+        </p>
+        <p class="date"> May 2026</p>
+      </div>
+
+    <p class="courses">
+    <span style="font-style: italic;">Relevant Coursework:</span> Database Design, Discrete Structures, Fundamentals of Computer Science 1 and 2, Human-Computer Interaction, Introduction to Mathematical Reasoning, Mathematics of Data Models, Object-Oriented Design
+    </p>
+
+    <hr> <!-- line -->
+
+    <span class="sub-heading">SKILLS</span>
+    <div class="skills">
+      <ul>
+        <li>Developer Tools: Docker, Git, Neovim, Zsh</li>
+        <li>Programming Languages: Java, Python, SQL</li>
+        <li>Technical: Flask, REST APIs, WebSockets</li>
+        <li>Languages: English (fluent), Italian (conversational)</li>
       </ul>
-    </nav>
-  <!-- navbar ends -->
-  <br>
+    </div>
 
-        <div class="false-header">
-            <h1>Nicholas R. Gallina</h1>
-        </div>
+    <hr> <!-- line -->
 
-  <br>
+    <div class="projects">
+      <span class="sub-heading">PROJECTS</span>
+    </div>
 
-        <div class="false-header-elements">
-          <div class="false-header-element">
-            <img src="images/location.png" alt="Location Icon" class="icon">
-            <span>Brooklyn, NY</span>
-          </div>
-        
-          <div class="false-header-element">
-            <img src="images/email.png" alt="Email Icon" class="icon">
-            <span>gallina.n@northeastern.edu</span>
-          </div>
+    <hr> <!-- line -->
 
-          <div class="false-header-element">
-            <img src="images/linkedin.png" alt="LinkedIn Icon" class="icon">
-            <a href="https://www.linkedin.com/in/nicholasgallina-/" target="_blank">in/nicholasgallina-</a>
-          </div>
+    <div class="work-experience">
+      <span class="sub-heading">WORK EXPERIENCE</span>
+    </div>
 
-          <div class="false-header-element">
-            <img src="images/github.png" alt="GitHub Icon" class="icon">
-            <a href="https://github.com/nicholasgallina" target="_blank">github.com/nicholasgallina</a>
-          </div>
-        </div>
+    <hr> <!-- line -->
 
-          <!-- end of header/nav links -->
+    <div class="extracurricular">
+      <span class="sub-heading">EXTRACURRICULAR</span>
+    </div>
 
-          <br> <!-- break -->
-          <br> <!-- break -->
-
-          <div class="sub-headings">
-            <span>EDUCATION</span>
-          </div>
-
-
-          <div class="university">
-            <span>Northeastern University</span>
-          </div>
-
-            <div class="education-line">
-              <span class="location">Boston, MA</span>
-              <span class="details">
-                <strong><em>Khoury College: Candidate for Bachelor in Computer Science and Design
-              </span>
-              <span class="date"> May 2026</span>
-            </div>
-
-            <span style="font-weight: normal;"><i>Relevant Coursework:</i> Object-Oriented Design, Computer Systems, Database Design, Fundamentals of Computer Science 1 and 2, Introduction to Mathematical Reasoning, Mathematics of Data Models, Human-Computer Interaction</span>
-
-            <hr> <!-- line -->
-
-            <div class="skills">
-              <span class="sub-headings">SKILLS</span>
-            </div>
-
-            <div class="projects">
-              <span class="sub-headings">PROJECTS</span>
-            </div>
-
-            <div class="work-experience">
-              <span class="sub-headings">WORK EXPERIENCE</span>
-            </div>
-
-            <div class="extracurricular">
-              <span class="sub-headings">EXTRACURRICULAR</span>
-            </div>
-
-
-
-
-
-
-    <script src="js/script.js" defer></script>
-</body>
+    </main> <!-- main ends -->
+    <script src="js/script.js" defer></script> <!-- load script.js -->
+  </body>
 </html>
-

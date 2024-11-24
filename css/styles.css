@@ -1,213 +1,161 @@
+/* styles.css for nicholasgallina.github.io */
 
-  * {
-    
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px 120px;
+}
+
+hr {
+  background-color: black;
+  margin: 12px 0;
   
-  }
-
-  body {
-
-    background-color: white;
-    font-family: "Times New Roman", Times, serif;
-    margin: 0px 120px;
-
-  }
-
-
-
-
-  .home-button {
-
-    display: block;
-    text-align: left;
-    margin: 0;
-
-
-  }
-
-  .navbar {
-
-    overflow: hidden;
-    background-color: #d1d6dc;
-    padding: 10px 20px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-  }
-
-  .nav-links {
-
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-
-  }
-
-  .nav-bar ul {
-
-    display: flex;
-    width 100%;
-    margin: 0;
-    padding: 0;
-
-  }
-
-  .nav-links a {
-
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 5px 10px;
-    transition: color 0.3s;
-
-  }
-
-  .nav-links li {
-
-    flex: 1;
-    text-align: center;
-    transition: background-color 0.3s;
-
-  }
-
-  /* hover */
-  .nav-links li:hover {
-
-    background-color: #A9A9A9;
-
-  }
-
-  .header-button {
-
-    display: flex;
-    font-family:"Times New Roman", Times, serif;
-    padding: 20px;
-    font-size: 20px;
-
-  }
-
-  .false-header {
-
-    font-family: "Times New Roman", Times, serif;
-    font-size: 24px;
-    text-align: center;
-
-  }
-
-
-  .false-header-elements {
-
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    font-family:"Times New Roman", Times, serif;
-    font-size: 16px;
-    letter-spacing: 0px;
-    word-spacing: 0px;
-
-  }
-
-  .false-header-element {
-
-    display: flex;
-    gap: 4px;
-
-  }
-
-  .icon {
-
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-
-  }
-
-
-  .sub-headings {
-
-    font-family:"Times New Roman", Times, serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: left;
-    text-decoration: underline;
-
-  }
-
-  .university {
-
-    font-weight: 700;
-
-  }
-
-  .education-line {
-
-    display: flex;
-    justify-content: space-between;
-    font-style: italic;
-    font-weight: 700;
-
-  }
-
-  .skills {
-
-    font-style: normal;
-
-  }
-
-  .projects {
-
-    font-style: normal;
-
-  }
-
-  .work-experience {
-
-    font-style: normal;
-
-  }
-
-  .extracurricular {
-
-    font-style: normal;
-
-  }
-
-  .location {
-
-    font-style: normal;
-
-  }
-
-  .details {
-
-    flex-grow: 1;
-    padding: 0 10px;
-
-  }
-
-  .date {
-
-    font-style: italic;
-    font-weight: normal;
-    text-align: right;
-
-  }
-
-  .relevant-courses {
-
-    font-style: normal;
-    font-weight: 400:
-
-
-  }
-
-
-
+}
+
+.navbar {
+  /* intentionally left blank */
+}
+
+.navbar-top {
+  background-color: #d1d6dc; 
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar-top a {
+  text-decoration: none;
+  color: white;
+  -webkit-text-stroke: 1.75px black;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  transition: color 0.3s;
+
+}
+
+.navbar-top li {
+  list-style-type: none; 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+
+}
+
+.navbar-middle {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.navbar-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+/* hover */
+.navbar-top a:hover {
+  background-color: #b2b7bc;
+}
+
+.header-button {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.navbar-bottom {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.navbar-bottom-element {
+  display: flex;
+  font-size: 22px;
+  gap: 5px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.university {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.date {
+  font-weight: normal;
+}
+
+.courses {
+  font-size: 19px;
+}
+
+.skills {
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0px 20px;
+}
+
+.projects {
+  font-style: normal;
+}
+
+.work-experience {
+  font-style: normal;
+}
+
+.extracurricular {
+  font-style: normal;
+}
+
+.location {
+  font-style: normal;
+}
+
+.details {
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.relevant-courses {
+  font-style: normal;
+  font-weight: 400;
+}
