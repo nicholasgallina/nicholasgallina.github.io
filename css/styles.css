@@ -17,6 +17,18 @@ hr {
   
 }
 
+.bold {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.left-right {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
 .navbar {
   /* intentionally left blank */
 }
@@ -120,6 +132,8 @@ hr {
 }
 
 .date {
+  font-size: 20px;
+  font-style: italic;
   font-weight: normal;
 }
 
@@ -132,26 +146,20 @@ hr {
   font-size: 19px;
   font-weight: 400;
   margin: 0px 20px;
-}
 
-.projects {
-  font-style: normal;
-}
+  .projects {
+    font-style: normal;
+  }
 
-.work-experience {
-  font-style: normal;
-}
+  .work-experience {
+    font-style: normal;
+  }
 
 .extracurricular {
   font-style: normal;
 }
 
-.location {
-  font-style: normal;
-}
-
 .details {
-  flex-grow: 1;
   padding: 0 10px;
 }
 
