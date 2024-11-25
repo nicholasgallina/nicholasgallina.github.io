@@ -146,14 +146,11 @@ hr {
   font-size: 19px;
   font-weight: 400;
   margin: 0px 20px;
+}
 
-  .projects {
-    font-style: normal;
-  }
-
-  .work-experience {
-    font-style: normal;
-  }
+.projects {
+  font-size: 20px;
+}
 
 .extracurricular {
   font-style: normal;
@@ -161,9 +158,21 @@ hr {
 
 .details {
   padding: 0 10px;
+
 }
 
 .relevant-courses {
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
+
+}
+
+.position {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.work-experience {
 }
